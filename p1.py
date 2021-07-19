@@ -1,5 +1,5 @@
-from pyowm import OWM
-owm = OWM('d11d4eecace811fd43ba83c3520611fa')
+import pyowm
+owm = pyowm.OWM('d11d4eecace811fd43ba83c3520611fa')
 mgr = owm.weather_manager()
 q = input('your city: ')
 observation = mgr.weather_at_place(q)
