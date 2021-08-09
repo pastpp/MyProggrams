@@ -1,0 +1,2 @@
+q = [float(input("первое число: ")),input("действие: "), float(input("второе число: "))]
+(lambda a,b,c: print(a+b) if c == "+" else(print(a-b) if c == "-" else(print(a/b) if c == "/" else(print(a*b) if c == "*" else(print(a%b) if c == "%" else(print(a**b) if c == "**" else print("error404")))))))(q[0], q[2], q[1])
