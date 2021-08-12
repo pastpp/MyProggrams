@@ -1,0 +1,1 @@
+(lambda a,c,b: print(a+b) if c == "+" else(print(a-b) if c == "-" else(print(a/b) if c == "/" else(print(a*b) if c == "*" else(print(a%b) if c == "%" else(print(a**b) if c == "**" else print("error404")))))))(float(input("первое число: ")),input("действие: "), float(input("второе число: ")))
